@@ -1,0 +1,6 @@
+speechrecognition
+gTTS
+pygame
+spacy
+openai
+python-dotenv
