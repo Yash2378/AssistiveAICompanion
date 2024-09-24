@@ -11,6 +11,7 @@ An AI companion that learns and grows with you, controlling your smart home ecos
 
 ## Project Structure
 
+```bash
 AssistiveAICompanion/
 ├── main.py                      # Main entry point for the AI companion
 ├── assistant.py                 # Core assistant logic to handle commands
@@ -25,6 +26,7 @@ AssistiveAICompanion/
 ├── data/                        # Directory for storing training or user data
 ├── requirements.txt             # Dependencies and packages for the project
 └── README.md                    # Project description and instructions
+```
 
 
 ## Getting Started
