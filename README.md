@@ -22,8 +22,13 @@ AssistiveAICompanion/
 │   ├── speech_utils.py          # Utility for text-to-speech functions
 │   └── openai_utils.py          # Utility for interacting with OpenAI's GPT model
 ├── models/
-│   └── custom_model.h5          # Placeholder for any custom AI models
-├── data/                        # Directory for storing training or user data
+│   └── custom_model.h5          # Pre-trained or custom models (for emotion recognition, voice, etc.)
+├── data/
+│   ├── voice_samples/           # Folder for storing voice sample files
+│   │   └── user1_sample.wav
+│   ├── training_data.txt        # Example text file for training data
+│   └── image_data/              # Folder for storing images used for emotion recognition
+│       └── sample_image.png
 ├── requirements.txt             # Dependencies and packages for the project
 └── README.md                    # Project description and instructions
 ```
