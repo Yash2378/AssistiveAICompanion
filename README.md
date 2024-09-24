@@ -11,8 +11,20 @@ An AI companion that learns and grows with you, controlling your smart home ecos
 
 ## Project Structure
 
-AssistiveAICompanion/ ├── main.py # Main entry point for the AI companion ├── assistant.py # Core assistant logic to handle commands ├── voice_assistant.py # Handles voice recognition and speech synthesis ├── nlp_processing.py # Natural language processing and OpenAI API interaction ├── smart_home.py # Placeholder for smart home integration logic (future feature) ├── utils/ │ ├── speech_utils.py # Utility for text-to-speech functions │ └── openai_utils.py # Utility for interacting with OpenAI's GPT model ├── models/ │ └── custom_model.h5 # Placeholder for any custom AI models ├── data/ # Directory for storing training or user data ├── requirements.txt # Dependencies and packages for the project └── README.md # Project description and instructions
-
+AssistiveAICompanion/
+├── main.py                      # Main entry point for the AI companion
+├── assistant.py                 # Core assistant logic to handle commands
+├── voice_assistant.py           # Handles voice recognition and speech synthesis
+├── nlp_processing.py            # Natural language processing and OpenAI API interaction
+├── smart_home.py                # Placeholder for smart home integration logic (future feature)
+├── utils/
+│   ├── speech_utils.py          # Utility for text-to-speech functions
+│   └── openai_utils.py          # Utility for interacting with OpenAI's GPT model
+├── models/
+│   └── custom_model.h5          # Placeholder for any custom AI models
+├── data/                        # Directory for storing training or user data
+├── requirements.txt             # Dependencies and packages for the project
+└── README.md                    # Project description and instructions
 
 
 ## Getting Started
